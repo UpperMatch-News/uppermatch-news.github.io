@@ -1,0 +1,136 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Site details (displayed in the header)
+author: Company
+name: Company Blog
+title: Company Blog
+description: A Description of the Blog
+keywords: "money, optimism, achievement"
+logo: images/logo.jpg
+
+# Language of the website
+locale: en-US
+
+# Company details
+company:
+  analytics:
+    google_id: TEST_ID
+    google_ads_id: TEST_ID
+    microsoft_clarity_id: TEST_ID
+  cta:
+    text: "Visit our website"
+    url: "/"
+  socials:
+    youtube: "@username"
+    instagram: username
+    facebook: username
+    tiktok: "@username"
+    x: username
+    linkedin: in/username
+    pinterest: username
+    telegram: username
+    discord: username
+    github: username
+    email: test@test.com
+    phone: +4512345678
+  icon_size: "24"
+  colors:
+    main:
+      background: "#19191f"
+      foreground: "#f1f1f1"
+    body:
+      background: "#f1f1f1"
+      foreground: "#19191f"
+    accent: "#E74727"
+  fonts:
+    google:
+      - "Roboto:ital,wght@0,100..900;1,100..900"
+    heading: "'Helvetica Neue', 'Roboto'"
+    body: "'Helvetica Neue', 'Roboto'"
+
+# Navigation items
+navigation:
+  header:
+    - title: "CTA"
+      url: "/"
+    - title: "CTA"
+      url: "/"
+    - title: "CTA"
+      url: "/"
+  footer:
+    - title: "Terms and Conditions"
+      url: "/terms-and-conditions"
+    - title: "Privacy Policy"
+      url: "/privacy-policy"
+    - title: "Cookie Policy"
+      url: "/cookie-policy"
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: https://127.0.0.1:4000/
+
+# Paginate after X amount of posts
+paginate: 10
+
+#
+# NOTHING TO CHANGE BEYOND THIS POINT
+#
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+# ONLY NECESSARY ON SUB-PAGE / GITHUB-BASED HOSTING
+baseurl: 
+
+# Theme used as a base
+theme: jekyll-swiss
+
+# Slug of paginated page
+paginate_path: "/page/:num"
+
+# Exclude pagination pages by default in sitemap
+defaults:
+  - scope:
+      path: "page"
+    values:
+      sitemap: false
+
+# Permalink slug (DO NOT TOUCH)
+permalink: /:title/
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Disable Github Metadata plugin
+github: [metadata]
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap
+  - jekyll-feed # Create an Atom RSS feed
+  - jekyll-paginate # Support pagination of posts
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - __init/
+  - init_mac.command
+  - init_windows.bat

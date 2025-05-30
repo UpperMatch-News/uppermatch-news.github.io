@@ -1,0 +1,14 @@
+{% if site.company.analytics.google_id %}
+<meta name="ga-id" content="{{ site.company.analytics.google_id }}">
+{% endif %}
+
+{% if site.company.analytics.google_ads_id %}
+<meta name="ga-ads-id" content="{{ site.company.analytics.google_ads_id }}">
+{% endif %}
+
+{% if site.company.analytics.microsoft_clarity_id %}
+<meta name="clarity-id" content="{{ site.company.analytics.microsoft_clarity_id }}">
+{% endif %}
+
+<meta name="page-url" content="{{ site.baseurl }}{{ page.url }}">
+<meta name="page-title" content="{{ page.title | replace: "'", "\\'" }}">
