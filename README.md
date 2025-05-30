@@ -1,1 +1,1 @@
-# Company Blog
+# UpperMatch Blog

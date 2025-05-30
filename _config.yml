@@ -3,12 +3,12 @@
 #
 
 # Site details (displayed in the header)
-author: Company
-name: Company Blog
-title: Company Blog
-description: A Description of the Blog
-keywords: "money, optimism, achievement"
-logo: images/logo.jpg
+author: UpperMatch
+name: UpperMatch News
+title: UpperMatch News
+description: See Listings, Sell Asset, Get Free Valuation
+keywords: "iGaming marketplace, buy online casinos, sell affiliate websites, iGaming assets for sale, online casino investments, iGaming M&A platform, affiliate site marketplace, SEO website sales, iGaming business listings, buy and sell iGaming assets, iGaming marketplace, buy online casinos, sell affiliate websites, iGaming assets for sale, online casino investments, iGaming M&A platform, affiliate site marketplace, SEO website sales, iGaming business listings, buy and sell iGaming assets"
+logo: images/logo.svg
 
 # Language of the website
 locale: en-US
@@ -16,49 +16,59 @@ locale: en-US
 # Company details
 company:
   analytics:
-    google_id: TEST_ID
-    google_ads_id: TEST_ID
-    microsoft_clarity_id: TEST_ID
+    google_id: 
+    google_ads_id: 
+    microsoft_clarity_id: 
   cta:
-    text: "Visit our website"
-    url: "/"
+    text: "Get Free Valuation"
+    url: "https://www.uppermatch.com"
   socials:
-    youtube: "@username"
-    instagram: username
-    facebook: username
-    tiktok: "@username"
-    x: username
-    linkedin: in/username
-    pinterest: username
-    telegram: username
-    discord: username
-    github: username
-    email: test@test.com
-    phone: +4512345678
+    youtube: 
+    instagram: 
+    facebook: 
+    tiktok: 
+    x: 
+    linkedin: 
+    pinterest: 
+    telegram: 
+    discord: 
+    github: 
+    email: 
+    phone: 
   icon_size: "24"
   colors:
     main:
-      background: "#19191f"
-      foreground: "#f1f1f1"
+      background: "#fff"
+      foreground: "#000"
     body:
-      background: "#f1f1f1"
-      foreground: "#19191f"
-    accent: "#E74727"
+      background: "#fff"
+      foreground: "#000"
+    accent: "#000"
   fonts:
     google:
-      - "Roboto:ital,wght@0,100..900;1,100..900"
-    heading: "'Helvetica Neue', 'Roboto'"
-    body: "'Helvetica Neue', 'Roboto'"
+      - "Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+    heading: "'Poppins'"
+    body: "'Poppins'"
 
 # Navigation items
 navigation:
   header:
-    - title: "CTA"
-      url: "/"
-    - title: "CTA"
-      url: "/"
-    - title: "CTA"
-      url: "/"
+    - title: "About"
+      url: "https://www.uppermatch.com/about"
+    - title: "Contact"
+      url: "https://www.uppermatch.com/contact"
+    - title: "Marketplace"
+      url: "https://www.uppermatch.com/marketplace"
+    - title: "Marketing Services"
+      url: "https://www.uppermatch.com/marketing-services"
+    - title: "Insights"
+      url: "https://www.uppermatch.com/insights"
+    - title: "Analytics"
+      url: "https://www.uppermatch.com/analytics"
+    - title: "FAQ"
+      url: "https://www.uppermatch.com/faq"
+    - title: "Blog"
+      url: "https://www.uppermatch.com/blog"
   footer:
     - title: "Terms and Conditions"
       url: "/terms-and-conditions"
@@ -69,7 +79,7 @@ navigation:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://127.0.0.1:4000/
+url: https://news.uppermatch.com/
 
 # Paginate after X amount of posts
 paginate: 10
